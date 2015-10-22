@@ -12,8 +12,8 @@ test:
     - cd app; mocha
 
 deployment:
-	hub:
-		branch: master
-			commands:
-				- $DEPLOY
+  hub:
+    branch: master
+      commands:
+        - $DEPLOY
 
